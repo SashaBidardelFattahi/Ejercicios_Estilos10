@@ -1,0 +1,53 @@
+body{
+    background-color: honeydew;
+}
+.introduccion{
+  text-align: center;
+  font-style: italic;
+  border-radius: 10px;
+  background-color: #3369ff;
+  margin-right: 25%;
+  margin-left: 25%;
+  color: #33ff3d;
+}
+.introduccion:hover{
+    transform: scale(1.5);
+    color: #e0ff33;
+}
+@font-face { /* Cargamos la fuente Frecleface-Regular  */
+    font-family: 'FrecleFace';
+    src: url('./fonts/FreckleFace-Regular.ttf') format('truetype'); 
+    
+}
+@font-face { /* Cargamos la fuente Eater_regular  */
+    font-family: 'Eater';
+    src: url('./fonts/Eater-Regular.ttf') format('truetype'); 
+    
+}
+@font-face { /* Cargamos la fuente GrenzeGotisch  */
+    font-family: 'GrenzeGotisch';
+    src: url('./fonts/GrenzeGotisch-VariableFont_wght.ttf') format('truetype'); 
+    
+}
+h1 {
+    font-family: 'FrecleFace';
+    text-transform: uppercase; /* Hace que el texto esté en mayúsculas */
+    text-align: center;
+    font-size: 250%;
+    color: darkorchid
+}
+h1:hover {
+    transform: scale(1.5);
+    color: #ff5733; /* Rojo anaranjado vibrante */
+}
+.traduccion{
+    font-family: 'GrenzeGotisch';
+    color: royalblue;
+    text-align: right;
+    font-size: 200%;
+   
+}
+.latin{
+    font-family: 'Eater';
+    font-size: 200%;
+}
