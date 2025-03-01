@@ -16,17 +16,17 @@ body{
 }
 @font-face { /* Cargamos la fuente Frecleface-Regular  */
     font-family: 'FrecleFace';
-    src: url('./fonts/FreckleFace-Regular.ttf') format('truetype'); 
+    src: url('./fuentes/FreckleFace-Regular.ttf') format('truetype'); 
     
 }
 @font-face { /* Cargamos la fuente Eater_regular  */
     font-family: 'Eater';
-    src: url('./fonts/Eater-Regular.ttf') format('truetype'); 
+    src: url('./fuentes/Eater-Regular.ttf') format('truetype'); 
     
 }
 @font-face { /* Cargamos la fuente GrenzeGotisch  */
     font-family: 'GrenzeGotisch';
-    src: url('./fonts/GrenzeGotisch-VariableFont_wght.ttf') format('truetype'); 
+    src: url('./fuentes/GrenzeGotisch-VariableFont_wght.ttf') format('truetype'); 
     
 }
 h1 {
